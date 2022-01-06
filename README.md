@@ -15,7 +15,7 @@ We should have Python 3.6+ installed.
 4. In the ticker.py file, update the symbols as a single string. See the existing ticker.py file. You can use this link to look for symbols: https://finance.yahoo.com/ 
 Amazon is 'AMZN', and Singapore Airlines is 'C6L.SI'.
 5. If you are on Linux, comment/uncomment lines 32 and 33 of the 'get_csv_data_files.py' file.
-5. Run ```python get_csv_data_files.py``` or ```python3 get_csv_data_files.py```<br/> The files should get automatically downloaded into the current folder.
+5. Run ```python main.py``` or ```python3 main.py```<br/> The files should get automatically downloaded into the current folder.
 
 ### License
 Anyone can _and should_ change the code, use it, or reuse it, on any other application.<br/> You are welcome. <br/> Only an attribution would suffice. <br/> MIT License &copy; [Vinod Mathew Sebastian](https://vinod-vms.netlify.app)
