@@ -34,7 +34,7 @@ def download_csv(ticker):
             print(path)
             if os.path.exists(path):
                 print(f"{symbol} already exists. Overwrite?")
-                user_input = input("Press 'y' to overwrite or 'n' to keep existing file.\n")
+                user_input = input("Enter 'y' to overwrite or 'n' to keep existing file.\n")
                 if user_input.lower() == 'y':
                     os.remove(path)
                     initial_num_of_csv_files -= 1
